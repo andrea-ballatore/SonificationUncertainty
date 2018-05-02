@@ -1,0 +1,97 @@
+PARAM,VALUE,STIM_PARAM,STIM_TYPE,GENDER,N,RT_MEAN,RT_SD,RT_MEDIAN,better_low,better_high,worse_low,worse_high,count_sum,tot_pref_low,tot_pref_high,diff_worse_better_idx,pref_idx
+STIM_TYPE,acoustic,timbre harmony order pitch duration register location_1 loudness attack_decay clarity rate_of_change,acoustic,F M,784,1182,1780,610,132,220,214,160,726,292,434,0.047,0.196
+STIM_TYPE,synth,location_1 duration harmony pitch clarity noise_pink loudness timbre_2 noise_red register rate_of_change noise_white attack_decay order timbre_1,synth,F M,1064,1128,1653,614,208,272,291,219,990,427,563,0.03,0.137
+STIM_PARAM,attack_decay,attack_decay,synth acoustic,F M,145,840,932,569,26,38,43,25,132,51,81,0.045,0.227
+STIM_PARAM,clarity,clarity,synth acoustic,F M,141,975,1697,506,22,42,43,25,132,47,85,0.03,0.288
+STIM_PARAM,duration,duration,synth acoustic,F M,145,1415,2795,690,25,39,37,31,132,56,76,0.061,0.152
+STIM_PARAM,harmony,harmony,acoustic synth,F M,145,1090,1344,608,27,37,41,27,132,54,78,0.03,0.182
+STIM_PARAM,location_1,location_1,synth acoustic,F M,140,1294,1707,683,27,37,39,29,132,56,76,0.03,0.152
+STIM_PARAM,loudness,loudness,synth acoustic,F M,140,860,1081,518,9,55,49,19,132,28,104,0.121,0.576
+STIM_PARAM,noise_pink,noise_pink,synth,F M,70,1367,1966,602,21,11,10,24,66,45,21,0.061,-0.364
+STIM_PARAM,noise_red,noise_red,synth,F M,70,1120,1815,718,13,19,21,13,66,26,40,0.03,0.212
+STIM_PARAM,noise_white,noise_white,synth,F M,73,1004,919,694,23,9,12,22,66,45,21,0.061,-0.364
+STIM_PARAM,order,order,acoustic synth,F M,141,1426,1826,741,26,38,50,18,132,44,88,0.152,0.333
+STIM_PARAM,pitch,pitch,synth acoustic,F M,143,1122,1846,630,27,37,35,33,132,60,72,0.061,0.091
+STIM_PARAM,rate_of_change,rate_of_change,synth acoustic,F M,140,1564,2298,783,28,36,35,33,132,61,71,0.045,0.076
+STIM_PARAM,register,register,synth acoustic,F M,141,978,1033,553,22,42,31,37,132,59,73,0.197,0.106
+STIM_PARAM,timbre,timbre,acoustic,F M,72,1405,1444,872,12,20,20,14,66,26,40,0.03,0.212
+STIM_PARAM,timbre_1,timbre_1,synth,F M,73,876,1165,512,20,12,13,21,66,41,25,0.03,-0.242
+STIM_PARAM,timbre_2,timbre_2,synth,F M,69,1026,1594,578,12,20,26,8,66,20,46,0.152,0.394
+STIM_TYPE STIM_PARAM,acoustic attack_decay,attack_decay,acoustic,F M,77,896,1175,514,13,19,21,13,66,26,40,0.03,0.212
+STIM_TYPE STIM_PARAM,synth attack_decay,attack_decay,synth,F M,68,784,602,634,13,19,22,12,66,25,41,0.061,0.242
+STIM_TYPE STIM_PARAM,acoustic clarity,clarity,acoustic,F M,70,904,1111,496,10,22,25,9,66,19,47,0.061,0.424
+STIM_TYPE STIM_PARAM,synth clarity,clarity,synth,F M,71,1046,2135,510,12,20,18,16,66,28,38,0.091,0.152
+STIM_TYPE STIM_PARAM,acoustic duration,duration,acoustic,F M,73,1487,3292,658,11,21,17,17,66,28,38,0.152,0.152
+STIM_TYPE STIM_PARAM,synth duration,duration,synth,F M,72,1344,2213,712,14,18,20,14,66,28,38,0.03,0.152
+STIM_TYPE STIM_PARAM,acoustic harmony,harmony,acoustic,F M,72,953,995,590,15,17,19,15,66,30,36,0.03,0.091
+STIM_TYPE STIM_PARAM,synth harmony,harmony,synth,F M,73,1227,1616,626,12,20,22,12,66,24,42,0.03,0.273
+STIM_TYPE STIM_PARAM,acoustic location_1,location_1,acoustic,F M,69,1291,1570,696,15,17,20,14,66,29,37,0.061,0.121
+STIM_TYPE STIM_PARAM,synth location_1,location_1,synth,F M,71,1298,1846,628,12,20,19,15,66,27,39,0.061,0.182
+STIM_TYPE STIM_PARAM,acoustic loudness,loudness,acoustic,F M,71,1056,1411,555,5,27,20,14,66,19,47,0.242,0.424
+STIM_TYPE STIM_PARAM,synth loudness,loudness,synth,F M,69,664,537,482,4,28,29,5,66,9,57,0.03,0.727
+STIM_TYPE STIM_PARAM,synth noise_pink,noise_pink,synth,F M,70,1367,1966,602,21,11,10,24,66,45,21,0.061,-0.364
+STIM_TYPE STIM_PARAM,synth noise_red,noise_red,synth,F M,70,1120,1815,718,13,19,21,13,66,26,40,0.03,0.212
+STIM_TYPE STIM_PARAM,synth noise_white,noise_white,synth,F M,73,1004,919,694,23,9,12,22,66,45,21,0.061,-0.364
+STIM_TYPE STIM_PARAM,acoustic order,order,acoustic,F M,70,1424,1852,652,9,23,29,5,66,14,52,0.152,0.576
+STIM_TYPE STIM_PARAM,synth order,order,synth,F M,71,1427,1815,772,17,15,21,13,66,30,36,0.152,0.091
+STIM_TYPE STIM_PARAM,acoustic pitch,pitch,acoustic,F M,69,861,879,615,15,17,16,18,66,33,33,0.061,0
+STIM_TYPE STIM_PARAM,synth pitch,pitch,synth,F M,74,1384,2440,650,12,20,19,15,66,27,39,0.061,0.182
+STIM_TYPE STIM_PARAM,acoustic rate_of_change,rate_of_change,acoustic,F M,69,1785,2853,884,12,20,15,19,66,31,35,0.182,0.061
+STIM_TYPE STIM_PARAM,synth rate_of_change,rate_of_change,synth,F M,71,1342,1551,747,16,16,20,14,66,30,36,0.091,0.091
+STIM_TYPE STIM_PARAM,acoustic register,register,acoustic,F M,72,944,1028,518,15,17,12,22,66,37,29,0.182,-0.121
+STIM_TYPE STIM_PARAM,synth register,register,synth,F M,69,1012,1044,574,7,25,19,15,66,22,44,0.212,0.333
+STIM_TYPE STIM_PARAM,acoustic timbre,timbre,acoustic,F M,72,1405,1444,872,12,20,20,14,66,26,40,0.03,0.212
+STIM_TYPE STIM_PARAM,synth timbre_1,timbre_1,synth,F M,73,876,1165,512,20,12,13,21,66,41,25,0.03,-0.242
+STIM_TYPE STIM_PARAM,synth timbre_2,timbre_2,synth,F M,69,1026,1594,578,12,20,26,8,66,20,46,0.152,0.394
+STIM_TYPE STIM_PARAM gender,acoustic attack_decay 1,attack_decay,acoustic,F,45,868,906,548,8,14,13,5,40,13,27,0.1,0.35
+STIM_TYPE STIM_PARAM gender,synth attack_decay 1,attack_decay,synth,F,42,755,662,540,8,14,14,4,40,12,28,0.1,0.4
+STIM_TYPE STIM_PARAM gender,acoustic clarity 1,clarity,acoustic,F,44,845,1106,476,6,16,12,6,40,12,28,0.1,0.4
+STIM_TYPE STIM_PARAM gender,synth clarity 1,clarity,synth,F,42,837,1406,410,6,16,11,7,40,13,27,0.15,0.35
+STIM_TYPE STIM_PARAM gender,acoustic duration 1,duration,acoustic,F,45,976,811,630,10,12,8,10,40,20,20,0.1,0
+STIM_TYPE STIM_PARAM gender,synth duration 1,duration,synth,F,43,1265,2463,683,11,11,9,9,40,20,20,0.1,0
+STIM_TYPE STIM_PARAM gender,acoustic harmony 1,harmony,acoustic,F,43,810,780,548,12,10,11,7,40,19,21,0.15,0.05
+STIM_TYPE STIM_PARAM gender,synth harmony 1,harmony,synth,F,45,1123,1711,588,9,13,11,7,40,16,24,0.1,0.2
+STIM_TYPE STIM_PARAM gender,acoustic location_1 1,location_1,acoustic,F,42,1351,1568,724,10,12,10,8,40,18,22,0.1,0.1
+STIM_TYPE STIM_PARAM gender,synth location_1 1,location_1,synth,F,43,1280,2054,573,8,14,11,7,40,15,25,0.1,0.25
+STIM_TYPE STIM_PARAM gender,acoustic loudness 1,loudness,acoustic,F,43,1126,1621,586,5,17,8,10,40,15,25,0.35,0.25
+STIM_TYPE STIM_PARAM gender,synth loudness 1,loudness,synth,F,41,656,429,488,4,18,14,4,40,8,32,0.1,0.6
+STIM_TYPE STIM_PARAM gender,synth noise_pink 1,noise_pink,synth,F,41,1511,2209,621,12,10,5,13,40,25,15,0.15,-0.25
+STIM_TYPE STIM_PARAM gender,synth noise_red 1,noise_red,synth,F,44,1048,2172,550,8,14,9,9,40,17,23,0.15,0.15
+STIM_TYPE STIM_PARAM gender,synth noise_white 1,noise_white,synth,F,44,894,782,722,14,8,6,12,40,26,14,0.1,-0.3
+STIM_TYPE STIM_PARAM gender,acoustic order 1,order,acoustic,F,41,1196,1741,642,8,14,15,3,40,11,29,0.15,0.45
+STIM_TYPE STIM_PARAM gender,synth order 1,order,synth,F,45,1159,1443,754,14,8,13,5,40,19,21,0.35,0.05
+STIM_TYPE STIM_PARAM gender,acoustic pitch 1,pitch,acoustic,F,41,885,935,648,9,13,6,12,40,21,19,0.25,-0.05
+STIM_TYPE STIM_PARAM gender,synth pitch 1,pitch,synth,F,45,1163,1176,650,7,15,10,8,40,15,25,0.15,0.25
+STIM_TYPE STIM_PARAM gender,acoustic rate_of_change 1,rate_of_change,acoustic,F,42,1222,1310,666,7,15,8,10,40,17,23,0.25,0.15
+STIM_TYPE STIM_PARAM gender,synth rate_of_change 1,rate_of_change,synth,F,44,1374,1740,736,11,11,11,7,40,18,22,0.1,0.1
+STIM_TYPE STIM_PARAM gender,acoustic register 1,register,acoustic,F,45,867,902,498,9,13,5,13,40,22,18,0.3,-0.1
+STIM_TYPE STIM_PARAM gender,synth register 1,register,synth,F,42,856,928,532,4,18,10,8,40,12,28,0.3,0.4
+STIM_TYPE STIM_PARAM gender,acoustic timbre 1,timbre,acoustic,F,43,1315,1189,948,7,15,9,9,40,16,24,0.2,0.2
+STIM_TYPE STIM_PARAM gender,synth timbre_1 1,timbre_1,synth,F,43,718,700,458,13,9,6,12,40,25,15,0.1,-0.25
+STIM_TYPE STIM_PARAM gender,synth timbre_2 1,timbre_2,synth,F,42,1233,2002,560,8,14,13,5,40,13,27,0.1,0.35
+STIM_TYPE STIM_PARAM gender,acoustic attack_decay 2,attack_decay,acoustic,M,32,939,1518,448,5,5,8,8,26,13,13,0.231,0
+STIM_TYPE STIM_PARAM gender,synth attack_decay 2,attack_decay,synth,M,26,829,507,732,5,5,8,8,26,13,13,0.231,0
+STIM_TYPE STIM_PARAM gender,acoustic clarity 2,clarity,acoustic,M,26,993,1135,528,4,6,13,3,26,7,19,0.308,0.462
+STIM_TYPE STIM_PARAM gender,synth clarity 2,clarity,synth,M,29,1368,2930,575,6,4,7,9,26,15,11,0.231,-0.154
+STIM_TYPE STIM_PARAM gender,acoustic duration 2,duration,acoustic,M,28,2272,5107,718,1,9,9,7,26,8,18,0.231,0.385
+STIM_TYPE STIM_PARAM gender,synth duration 2,duration,synth,M,29,1466,1802,731,3,7,11,5,26,8,18,0.231,0.385
+STIM_TYPE STIM_PARAM gender,acoustic harmony 2,harmony,acoustic,M,29,1175,1240,656,3,7,8,8,26,11,15,0.231,0.154
+STIM_TYPE STIM_PARAM gender,synth harmony 2,harmony,synth,M,28,1386,1476,740,3,7,11,5,26,8,18,0.231,0.385
+STIM_TYPE STIM_PARAM gender,acoustic location_1 2,location_1,acoustic,M,27,1199,1601,690,5,5,10,6,26,11,15,0.231,0.154
+STIM_TYPE STIM_PARAM gender,synth location_1 2,location_1,synth,M,28,1325,1509,726,4,6,8,8,26,12,14,0.231,0.077
+STIM_TYPE STIM_PARAM gender,acoustic loudness 2,loudness,acoustic,M,28,948,1027,515,0,10,12,4,26,4,22,0.231,0.692
+STIM_TYPE STIM_PARAM gender,synth loudness 2,loudness,synth,M,28,676,680,479,0,10,15,1,26,1,25,0.231,0.923
+STIM_TYPE STIM_PARAM gender,synth noise_pink 2,noise_pink,synth,M,29,1146,1534,597,9,1,5,11,26,20,6,0.231,-0.538
+STIM_TYPE STIM_PARAM gender,synth noise_red 2,noise_red,synth,M,26,1229,1090,896,5,5,12,4,26,9,17,0.308,0.308
+STIM_TYPE STIM_PARAM gender,synth noise_white 2,noise_white,synth,M,29,1174,1091,680,9,1,6,10,26,19,7,0.231,-0.462
+STIM_TYPE STIM_PARAM gender,acoustic order 2,order,acoustic,M,29,1775,1994,788,1,9,14,2,26,3,23,0.231,0.769
+STIM_TYPE STIM_PARAM gender,synth order 2,order,synth,M,26,1839,2241,1006,3,7,8,8,26,11,15,0.231,0.154
+STIM_TYPE STIM_PARAM gender,acoustic pitch 2,pitch,acoustic,M,28,824,801,523,6,4,10,6,26,12,14,0.231,0.077
+STIM_TYPE STIM_PARAM gender,synth pitch 2,pitch,synth,M,29,1724,3623,614,5,5,9,7,26,12,14,0.231,0.077
+STIM_TYPE STIM_PARAM gender,acoustic rate_of_change 2,rate_of_change,acoustic,M,27,2652,4147,1016,5,5,7,9,26,14,12,0.231,-0.077
+STIM_TYPE STIM_PARAM gender,synth rate_of_change 2,rate_of_change,synth,M,27,1293,1237,812,5,5,9,7,26,12,14,0.231,0.077
+STIM_TYPE STIM_PARAM gender,acoustic register 2,register,acoustic,M,27,1063,1206,568,6,4,7,9,26,15,11,0.231,-0.154
+STIM_TYPE STIM_PARAM gender,synth register 2,register,synth,M,27,1252,1180,683,3,7,9,7,26,10,16,0.231,0.231
+STIM_TYPE STIM_PARAM gender,acoustic timbre 2,timbre,acoustic,M,29,1544,1784,812,5,5,11,5,26,10,16,0.231,0.231
+STIM_TYPE STIM_PARAM gender,synth timbre_1 2,timbre_1,synth,M,30,1118,1631,637,7,3,7,9,26,16,10,0.231,-0.231
+STIM_TYPE STIM_PARAM gender,synth timbre_2 2,timbre_2,synth,M,27,709,431,602,4,6,13,3,26,7,19,0.308,0.462
