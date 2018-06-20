@@ -8,6 +8,7 @@ This repository contains research material.
 
 **Keywords:**
 
+sonification; uncertainty; aural cognition; sound variables; communication
 
 
 ## Datasets
@@ -16,11 +17,11 @@ This repository contains research material.
 
 ## Cite as
 
-
+A. Ballatore, D. Gordon, & A. Boone (2018) Sonifying data uncertainty with sound dimensions. Cartography and Geographic Information Science, in press.
 
 ## Maintainer
 
-[Andrea Ballatore](http://sites.google.com/site/andreaballatore) (Birkbeck, University of London)
+[Andrea Ballatore](http://aballatore.space) (Birkbeck, University of London)
 
 ## License
 
